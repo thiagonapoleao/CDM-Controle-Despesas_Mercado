@@ -1,4 +1,19 @@
-.welcome-card img {
+
+.prc{
+  --background: url('/assets/img/fundo.jpg') 0 0/100% 100% no-repeat;
+}
+
+.adac{
+  max-width: 100px;
+ 
+}
+
+
+.welcome-card {
+  --background: url('/assets/img/grid.jpg') 0 0/100% 100% no-repeat;
   max-height: 35vh;
   overflow: hidden;
+  color: aliceblue;
 }
+
+
