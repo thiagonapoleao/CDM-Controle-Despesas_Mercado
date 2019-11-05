@@ -1,5 +1,5 @@
-<ion-header color="primary">
-  <ion-toolbar color="primary">
+<ion-header>
+  <ion-toolbar>
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
@@ -16,14 +16,39 @@
       <ion-card-title>Bem Vindo!</ion-card-title>
     </ion-card-header>
     <ion-card-content>
-      <p>Controle de Despesas Mercado.</p>
-      <p>Escolha o mercado para pesquisa de produtos</p>
+      <p>Controle de Despesas de Mercado.</p>
+      <p>Escolha o mercado para pesquisa  e comparação de produtos</p>
     </ion-card-content>
   </ion-card>
 
-  <ion-card class="adac">
-      <ion-img [src]="'/assets/img/adacadao.jpg'"></ion-img>
-      <br>
-      <ion-img [src]="'/assets/img/extra.jpg'"></ion-img>
+  <ion-card class="list">
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img [src]="'/assets/img/adacadao.jpg'">
+      </ion-thumbnail>
+      <ion-label>Supermecado Adacadão</ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img [src]="'/assets/img/extra.jpg'">
+      </ion-thumbnail>
+      <ion-label>Supermecado Extra</ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img [src]="'/assets/img/savegnago.jpg'">
+      </ion-thumbnail>
+      <ion-label>Supermecado Savegnago</ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img [src]="'/assets/img/semprevale.jpg'">
+      </ion-thumbnail>
+      <ion-label>Supermecado Sempre Vale</ion-label>
+    </ion-item>
   </ion-card>
+
 </ion-content>
