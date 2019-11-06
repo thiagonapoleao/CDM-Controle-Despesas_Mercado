@@ -8,8 +8,11 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { BarcodeScanner } from '@ionic-native/barcode-scanner';
-import { Toast } from '@ionic-native/toast';
+
+import { QRScanner, QRScannerStatus } from '@ionic-native/qr-scanner/ngx';
+
+
+import { HttpModule } from '@angular/http';
 
 @NgModule({
   declarations: [AppComponent],
@@ -22,9 +25,9 @@ import { Toast } from '@ionic-native/toast';
   providers: [
     StatusBar,
     SplashScreen,
+    QRScanner,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
-    // , BarcodeScanner,
-    // Toast
+
   ],
   bootstrap: [AppComponent]
 })

@@ -17,8 +17,9 @@
   </ion-card>
 
   <ion-card class="list">
-    <ion-item>
-      <ion-label position="floating" style="text-align: center;">EAN</ion-label>
+      <ion-button color="light" expand="block" style="color: aliceblue" (click)="lerCodigo()"><ion-icon name="qr-scanner"></ion-icon> - Scanner EAN </ion-button>
+    <ion-item>        
+      <ion-label position="floating" style="text-align: center">EAN</ion-label>
       <ion-input type="number"></ion-input>
     </ion-item>
     <ion-list>
@@ -27,10 +28,10 @@
       </ion-item>
     </ion-list>
     <ion-item>
-      <ion-label position="floating" style="text-align: center;">Valor R$</ion-label>
+      <ion-label position="floating" style="text-align: center">Valor R$</ion-label>
       <ion-input type="number"></ion-input>
     </ion-item>
-    <ion-button color="dark" expand="block" style="color: aliceblue;">Lançar</ion-button>
+    <ion-button color="dark" expand="block" style="color: aliceblue">Lançar</ion-button>
   </ion-card>
 
   <ion-card class="lista">
