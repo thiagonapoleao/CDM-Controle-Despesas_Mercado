@@ -20,6 +20,11 @@ export class AppComponent {
       title: 'Supermecado - 1',
       url: '/supermecado1',
       icon: 'list'
+    },
+    {
+      title: 'Supermecado - 2',
+      url: '/supermecado2',
+      icon: 'list'
     }
   ];
 
